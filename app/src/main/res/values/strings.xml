@@ -1,0 +1,152 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Do it</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="tab_title_main_1">待办事项</string>
+    <string name="tab_title_main_2">番茄时钟</string>
+    <string name="tab_title_main_3">课程表</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="news_one_title">标题1</string>
+    <string name="news_one_desc">正文1</string>
+    <string name="news_two_title">标题2</string>
+    <string name="news_two_desc">正文2</string>
+    <string name="news_three_title">标题3</string>
+    <string name="news_three_desc">正文3</string>
+    <string name="news_four_title">标题4</string>
+    <string name="news_four_desc">正文4</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_basic">BasicActivity</string>
+
+    <string name="appbar_circleimageview_behavior">com.example.upc.Doit.CircleImageInUsercBehavior</string>
+    <string name="appbar_overscroll_behavior">com.example.upc.Doit.AppBarLayoutOverScrollViewBehavior</string>
+
+    <string name="about_app">欢迎使用！
+        \n\n这是一个基于Material Design规范的待办事项-番茄钟应用
+        \n\n提供待办事项、番茄时钟、白噪音、专注模式、数据同步、数据统计等功能
+        \n\n为了带来更好的用户体验，整体界面基于Google最新的Material Design设计规范，简洁淡雅，富有质感。
+        \n\n采用了先进的云服务器来保存您的数据，保证用户的数据信息的完整性和安全性，即使您更换手机，数据也可以同步
+         </string>
+    <string name="about_function"> - 待办事项：精美的待办卡片，提供到点提醒，重复提醒等功能。
+        \n\n - 番茄时钟：极简的界面，基于番茄工作法，设定每25分钟为一个任务区间，专注于学习和工作，提高效率。
+        \n\n - 白噪音：在您的番茄时钟工作时，可以选择开启是自然纯音乐，帮助您更愉悦的工作，更舒适的睡眠。
+        \n\n - 专注模式：打开专注模式之后，会阻止其他App打开，让您更加专注于学习和工作。
+        \n\n - 云同步：云端+本地双重备份，保证数据不丢失，在登录状态下实时同步数据到云端。
+        \n\n - 数据统计：实时统计用户的番茄钟数据。
+        \n\n - 用户排行：根据番茄钟累计时间展示所有用户排行。
+        \n\n - 语音转文字：继承AI语音识别，解放双手，更快输入。
+    </string>
+
+
+    <string name="focus_explain">说明：开启专注模式需要开启“获取应用情况”权限，打开此开关并开始番茄计时，除本App之外的所有非系统App将会被拦截</string>
+
+
+    <!-- button -->
+    <string name="btn_start">开始</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_resume">继续</string>
+    <string name="btn_stop">放弃</string>
+    <string name="btn_skip">略过</string>
+
+    <string name="scene_title_work">开始工作</string>
+    <string name="scene_title_break">开始休息</string>
+
+    <string name="scene_work">工作</string>
+    <string name="scene_short_break">短时休息</string>
+    <string name="scene_long_break">长时休息</string>
+
+    <string name="amount_durations">番茄总时间 %1$d 分钟</string>
+    <string name="stage_time_unit">%1$d 分钟</string>
+    <string name="time_unit">分钟</string>
+
+
+    <!-- 通知 -->
+    <string name="notification_focus">番茄工作中</string>
+    <string name="notification_focus_pause">番茄暂停中</string>
+    <string name="notification_break">正在休息</string>
+    <string name="notification_break_pause">休息暂停中</string>
+    <string name="notification_time_left">还剩</string>
+    <string name="notification_finish">放下工作，准备休息</string>
+    <string name="notification_finish_content">已经完成一个番茄钟，休息一下吧！</string>
+    <string name="notification_break_finish">休息结束</string>
+    <string name="notification_break_finish_content">休息结束，开启下一个番茄钟吧！</string>
+
+    <!-- 设置 -->
+    <string name="pref_title_tick_title">定时器设置</string>
+    <string name="pref_title_work_length">番茄钟时长</string>
+    <string name="pref_title_short_break">休息时长</string>
+    <string name="pref_title_long_break">长休息时长</string>
+    <string name="pref_title_long_break_frequency">长休息间隔</string>
+    <string name="pref_title_frequency_value">%1$d 个番茄</string>
+    <string name="pref_title_time_value">%1$d 分钟</string>
+
+    <string name="pref_title_pomodoro_element">番茄元素</string>
+    <string name="pref_title_pomodoro_mode">番茄模式</string>
+    <string name="pref_title_pomodoro_mode_summary">在番茄模式下不能暂停定时器</string>
+    <string name="pref_title_infinity_mode">自动模式</string>
+    <string name="pref_title_infinity_mode_summary">自动开始下一个番茄钟</string>
+    <string name="pref_title_ticking_sound">滴答声</string>
+    <string name="pref_title_ticking_sound_summary">在番茄钟工作期间，持续的滴答声</string>
+
+    <string name="pref_title_notifications">提示</string>
+    <string name="pref_title_use_notification">完成后提示</string>
+    <string name="pref_title_notification_sound">提示音</string>
+    <string name="pref_title_notification_vibrate">震动</string>
+
+    <string name="pref_title_advanced">高级</string>
+    <string name="pref_title_screen_on">屏幕常亮</string>
+    <string name="pref_title_screen_on_summary">仅针对主界面，在番茄钟期间保持屏幕常亮</string>
+    <string name="pref_title_check_update">检查更新</string>
+
+    <string name="schedule_today_title">今日数据</string>
+    <string name="schedule_amount_title">累计数据</string>
+    <string name="schedule_durations">番茄时间</string>
+    <string name="schedule_times">番茄次数</string>
+    <string name="schedule_done">完成次数</string>
+    <string name="schedule_amount_summary">注意：卸载应用，累计数据将重新计算!</string>
+    <string name="toast_tick_sound_on">白噪音已开启</string>
+    <string name="toast_tick_sound_off">白噪音已关闭</string>
+
+    <string name="kb">[{\"Course_address\":\"南教201\",\"Course_name\":\"程序设计(JAVA)\",\"Course_teacher\":\"刘建航\",\"Course_type\":\"限选\",\"Course_week\":\"周二第1,2节{第11-19周}\"},
+        {\"Course_address\":\"南堂202\",\"Course_name\":\"通信原理\",\"Course_teacher\":\"卢晓轩\",\"Course_type\":\"必修\",\"Course_week\":\"周三第1,2节{第1-9周}\"},
+        {\"Course_address\":\"东环104\",\"Course_name\":\"信号与系统\",\"Course_teacher\":\"王海燕\",\"Course_type\":\"必修\",\"Course_week\":\"周四第1,2节{第1-19周}\"},
+        {\"Course_address\":\"西环103\",\"Course_name\":\"数字信号处理\",\"Course_teacher\":\"顾朝志\",\"Course_type\":\"必修\",\"Course_week\":\"周五第1,2节{第11-11周|单周}\"},
+        {\"Course_address\":\"南教103\",\"Course_name\":\"程序设计(JAVA)\",\"Course_teacher\":\"刘建航\",\"Course_type\":\"限选\",\"Course_week\":\"周五第1,2节{第19-19周|单周}\"},
+        {\"Course_address\":\"南教209\",\"Course_name\":\"通信原理\",\"Course_teacher\":\"卢晓轩\",\"Course_type\":\"必修\",\"Course_week\":\"周五第1,2节{第8-9周}\"},
+        {\"Course_address\":\"工科C621\",\"Course_name\":\"通信原理实验\",\"Course_teacher\":\"卢晓轩\",\"Course_type\":\"实验\",\"Course_week\":\"周五第1,2节{第1-2周}\"},
+        {\"Course_address\":\"东廊102\",\"Course_name\":\"射频电路基础\",\"Course_teacher\":\"舒若\",\"Course_type\":\"限选\",\"Course_week\":\"周五第1,2节{第12-18周}\"},
+        {\"Course_address\":\"南教303\",\"Course_name\":\"信息论与编码\",\"Course_teacher\":\"李莉\",\"Course_type\":\"必修\",\"Course_week\":\"周五第1,2节{第3-7周}\"},
+        {\"Course_address\":\"西环204\",\"Course_name\":\"微机原理\",\"Course_teacher\":\"丁淑妍\",\"Course_type\":\"限选\",\"Course_week\":\"周一第3,4节{第11-19周}\"},
+        {\"Course_address\":\"西廊201\",\"Course_name\":\"数字信号处理\",\"Course_teacher\":\"顾朝志\",\"Course_type\":\"必修\",\"Course_week\":\"周二第3,4节{第3-17周|单周}\"},
+        {\"Course_address\":\"南堂401\",\"Course_name\":\"信息论与编码\",\"Course_teacher\":\"李莉\",\"Course_type\":\"必修\",\"Course_week\":\"周三第3,4节{第2-18周|双周}\"},
+        {\"Course_address\":\"东廊102\",\"Course_name\":\"毛概\",\"Course_teacher\":\"张荣华/周老师/王老师\",\"Course_type\":\"必修\",\"Course_week\":\"周一第7,8节{第1-18周}\"},
+        {\"Course_address\":\"文理楼102\",\"Course_name\":\"JAVA上机课\",\"Course_teacher\":\"刘建航\",\"Course_type\":\"实验\",\"Course_week\":\"周二第7,8节{第1-19周}\"},
+        {\"Course_address\":\"东廊102\",\"Course_name\":\"计算机网络\",\"Course_teacher\":\"刘建航\",\"Course_type\":\"必修\",\"Course_week\":\"周三第7,8节{第3-19周|单周}\"},
+        {\"Course_address\":\"东廊102\",\"Course_name\":\"射频电路基础\",\"Course_teacher\":\"舒若\",\"Course_type\":\"限选\",\"Course_week\":\"周五第7,8节{第1-19周}\"},
+        {\"Course_address\":\"东环104\",\"Course_name\":\"信号与系统\",\"Course_teacher\":\"王海燕\",\"Course_type\":\"必修\",\"Course_week\":\"周二第9,10节{第11-19周}\"},
+        {\"Course_address\":\"文理楼103\",\"Course_name\":\"信号与系统上机\",\"Course_teacher\":\"王海燕\",\"Course_type\":\"实验\",\"Course_week\":\"周四第9,10节{第1-19周|单周}\"},
+        {\"Course_address\":\"西环204\",\"Course_name\":\"微机原理\",\"Course_teacher\":\"丁淑妍\",\"Course_type\":\"限选\",\"Course_week\":\"周四第9,10节{第2-18周|双周}\"}]</string>
+
+
+</resources>

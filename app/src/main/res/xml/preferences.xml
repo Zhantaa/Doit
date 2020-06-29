@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="设置">
+
+    <!--<PreferenceCategory-->
+        <!--android:title="用户">-->
+
+        <!--<Preference-->
+            <!--android:title="昵称"-->
+            <!--android:summary="个性签名" />-->
+
+
+
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:title="通知">
+
+        <RingtonePreference
+            android:key="ring_tone"
+            android:title="通知铃声"
+            android:summary="默认"
+            android:ringtoneType="notification"
+            android:defaultValue="content://settings/system/notification_sound"/>
+
+        <!--<SwitchPreference-->
+            <!--android:key="vibrator"-->
+            <!--android:title="震动"-->
+            <!--android:defaultValue="true"-->
+            <!--android:switchTextOn="开"-->
+            <!--android:switchTextOff="关"-->
+            <!--android:summaryOn="开"-->
+            <!--android:summaryOff="关" />-->
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="专注模式">
+
+        <SwitchPreference
+            android:key="focus"
+            android:title="专注模式"
+            android:summary="打开专注模式将阻止其他App打开"
+            android:defaultValue="false" />
+
+        <Preference
+            android:summary="@string/focus_explain"/>
+
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="change_pwd"
+        android:title="修改密码" />
+
+    <Preference
+        android:key="exit_login"
+        android:title="退出登录"
+        />
+
+
+
+
+</PreferenceScreen>
+
+
+
+
