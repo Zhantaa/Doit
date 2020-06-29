@@ -22,9 +22,8 @@ import com.example.upc.Doit.R;
 
 import java.util.Calendar;
 
-/**
- * 编辑待办事项类待整理
- */
+//编辑待办事项类待整理
+
 public class EditTodoActivity extends BasicActivity {
 
     private MyDatabaseHelper dbHelper;

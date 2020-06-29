@@ -12,9 +12,8 @@ import com.example.upc.Doit.Receiver.NetworkReceiver;
 import cn.bmob.v3.Bmob;
 import es.dmoral.toasty.Toasty;
 
-/**
- * Activity基类:实时获取网络状态
- */
+
+ //Activity基类:实时获取网络状态
 public class BasicActivity extends AppCompatActivity {
     private boolean isRegistered = false;
     private NetworkReceiver networkReceiver;

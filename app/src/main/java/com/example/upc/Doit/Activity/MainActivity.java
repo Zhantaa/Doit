@@ -97,7 +97,6 @@ public class MainActivity extends BasicActivity implements NavigationView.OnNavi
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        ColorFilterToolBar toolbar = (ColorFilterToolBar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         //Bmob云创建AppVersion表
 //        BmobUpdateAgent.initAppVersion();
 

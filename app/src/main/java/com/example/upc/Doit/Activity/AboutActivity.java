@@ -36,7 +36,7 @@ public class AboutActivity extends AbsAboutActivity {
         items.add(new Contributor(R.drawable.designer3,"TST", "Developer & designer","https://github.com/tst1111"));
 
         items.add(new Category("项目地址"));
-        items.add(new Contributor(R.drawable.github,"Github","Doit","https://github.com/Zhantaa/ZT_TST_BSL"));
+        items.add(new Contributor(R.drawable.github,"Github","Doit","https://github.com/Zhantaa/Doit"));
 
     }
 }

@@ -12,8 +12,8 @@ public class CourseBean implements Serializable {
 	private String Course_name; // 课程名
 	private String Course_address; // 上课地点
 	private String Course_teacher; // 课程老师
-	private String Course_type; // 课程种类 专业/专选/选修/实验
 	private String Course_week; // 课程周数
+	private String Course_type; // 课程种类 必修/限选/公选/实验
 
 	public CourseBean() {
 

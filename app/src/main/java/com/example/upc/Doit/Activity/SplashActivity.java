@@ -31,7 +31,6 @@ public class SplashActivity extends BasicActivity {
     protected void onCreate(Bundle savedInstanceState) {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
-
         //复制assets下的资源文件到sd卡
         fileUtils = new FileUtils();
         fileUtils.copyData(getApplicationContext());
