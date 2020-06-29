@@ -160,10 +160,7 @@ public class CourseBean implements Serializable {
 
 	/**
 	 * 判断本节课是否在指定周上
-	 * 
-	 * @param week
-	 *            指定周
-	 * @return ture 是
+	 *
 	 */
 	public Boolean inThisWeek(int week) {
 		Boolean result = false;
