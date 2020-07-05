@@ -75,8 +75,6 @@ public class AlarmService extends KeepliveService {
                 e.printStackTrace();
             }
         }
-
-//        return START_REDELIVER_INTENT;
         return super.onStartCommand(intent,flags,startId);
     }
 

@@ -56,7 +56,6 @@ public class AlarmReceiver extends BroadcastReceiver {
                     .setContentTitle(title)        //设置通知标题。
                     .setContentText(dsc)        //设置通知内容。
                     .setAutoCancel(true)                //点击通知后通知消失
-//                    .setDefaults(Notification.DEFAULT_ALL)        //设置系统默认的通知音乐、振动、LED等。
                     .setPriority(Notification.PRIORITY_MAX)  //设置通知为最高权限
                     .setFullScreenIntent(pi, true)
                     .setContentIntent(pi);
