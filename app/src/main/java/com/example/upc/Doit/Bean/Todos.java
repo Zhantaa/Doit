@@ -17,19 +17,6 @@ public class Todos extends BmobObject{
 
     public Todos(){}
 
-//    public Todos(int id,String title, String desc, String date, String time,long remindTime,long remindTimeNoDay,int isAlerted,int isRepeat,int imgId) {
-//
-//        this.id = id;
-//        this.title = title;
-//        this.desc = desc;
-//        this.date = date;
-//        this.time = time;
-//        this.isAlerted = isAlerted;
-//        this.remindTime = remindTime;
-//        this.remindTimeNoDay = remindTimeNoDay;
-//        this.isRepeat = isRepeat;
-//        this.imgId = imgId;
-//    }
 
     public void setId(int id){
         this.id = id;
