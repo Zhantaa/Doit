@@ -178,12 +178,6 @@ public class CourseBean implements Serializable {
 		return result;
 	}
 
-	/*
-	 * // 获取节数 public int getTime() { Pattern pattern = Pattern.compile("\\d");
-	 * Matcher matcher = pattern.matcher(getCourse_week()); matcher.find();
-	 * String result = matcher.group(); int r = -1; if (result != null) { r =
-	 * Integer.parseInt(result); } return r; }
-	 */
 
 	public String getCourse_name() {
 		return Course_name;

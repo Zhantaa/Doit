@@ -189,35 +189,6 @@ public class ClockDao {
     public HashMap getAmount() {
         HashMap<String, Integer> results = new HashMap<>();
 
-//        String[] projection = {
-//                _ID,
-//                COLUMN_NAME_END_TIME,
-//                COLUMN_NAME_DURATION
-//        };
-//
-//        Cursor cursor = db.query(
-//                TABLE_NAME,                     // The table to query
-//                projection,                       // The columns to return
-//                null,                        // The columns for the WHERE clause
-//                null,                    // The values for the WHERE clause
-//                null,                            // don't group the rows
-//                null,                            // don't filter by row groups
-//                null                             // don't sort order
-//        );
-//
-//        int duration = 0;
-//        int times  = 0;
-//
-//        try {
-//            while (cursor.moveToNext()) {
-//                if (!cursor.isNull(cursor.getColumnIndex(COLUMN_NAME_END_TIME))) {
-//                    times++;
-//                    duration += cursor.getInt(cursor.getColumnIndex(COLUMN_NAME_DURATION));
-//                }
-//            }
-//        } finally {
-//            cursor.close();
-//        }
 
         user = User.getCurrentUser(User.class);
         BmobQuery<Clock> bmobQuery = new BmobQuery<Clock>();
